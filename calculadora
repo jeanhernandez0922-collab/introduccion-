@@ -1,0 +1,7 @@
+programa que realiza la suma de um mumero
+Escribir " digite el primer numero"
+leer numero1
+escribir " digite el segundo numero"
+leer numero2
+resultado = numero1 + numero2
+escribir "el resultado es:", resultado
