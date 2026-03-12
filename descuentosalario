@@ -1,0 +1,11 @@
+// crear un programa que calcule el descuento de un 25% de un salario drvrngado por un empleado, captura su nombre y su salario
+
+PROCESO 
+  ESCRIBIR "programa que te descuenta el 25% "
+  LEER nombre
+  ESCRIBIR "digite su salario"
+  LEER salario
+  porcentaje = salario * 25 / 100 // esta linea calcula el porcentaje
+  salariototal = salario - porcentaje
+  ESCRIBIR "su nombre es ", nombre, " su salario de devengado es ", salario, " y con el descuento del 25%, queda en ", salariototal
+FINPROCESO
