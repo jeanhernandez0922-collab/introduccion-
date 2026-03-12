@@ -1,0 +1,11 @@
+PROCESO areatriangulo
+  // realizar un programa que calcula el area de un triangulo, donde se le pida al usuario que ingrese la base y altura
+  ESCRIBIR "programa que calcula el area de un triangulo"
+  ESCRIBIR " "
+  LEER base
+  LEER altura
+  ESCRIBIR "digite el valor de la base= ", base
+  ESCRIBIR "digite el valor de la altura= ", altura
+  resultado = (base * altura)/2 
+  ESCRIBIR "el resultado es = ", resultado
+FinProceso
