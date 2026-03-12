@@ -1,0 +1,14 @@
+PROCESO areayperimetro
+  // calcular un programa que calcule el area y perimetro y el area de una circuferencia partir de su diametro
+  ESCRIBIR "programa que calcula el area y perimetro de una circuferencia"
+  ESCRIBIR " "
+  ESCRIBIR " "
+  ESCRIBIR " "
+  ESCRIBIR "digite el diametro de la circuferencia "
+  ESCRIBIR " "
+  LEER diametro
+  radio = diametro /2
+  area = 3.1416 * radio * radio
+  perimetro = 2 * 3.1416 * radio
+  ESCRIBIR "el circulo de diametro", diametro," tiene un radio de ", radio, " donde su area es igual a ", area, " y su perimetro es igual a ", perimetro
+FINPROCESO
