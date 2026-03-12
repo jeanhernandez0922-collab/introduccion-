@@ -7,5 +7,10 @@ PROCESO
   LEER salario
   porcentaje = salario * 25 / 100 // esta linea calcula el porcentaje
   salariototal = salario - porcentaje
-  ESCRIBIR "su nombre es ", nombre, " su salario de devengado es ", salario, " y con el descuento del 25%, queda en ", salariototal
+
+   SI salariototal > 1000000 ENTONCES 
+     ESCRIBIR "su salario es mu y alto, usted gana :", salariototal
+  SINO
+    ESCRIBIR "su salario es menor a un millon, usted gana :", salariototal
+  FINSI
 FINPROCESO
